@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+     th,
+    td{
+        border: 1px solid black;
+        border-spacing: 15px ;
+        border-collapse: collapse;
+
+
+    }
+    th,
+    td{
+        padding: 20px;
+    }
+</style>
+<body>
+    <div>
+        <img src=https://www.shutterstock.com/image-vector/user-avatar-icon-sign-profile-260nw-1145752283.jpg>
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>email address</th>
+            <th>phone</th>
+            <th>address</th>
+            <th>city</th>
+            <th> state</th>
+            <th>zip</th>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text"  required maxlength="25"/>
+            </td>
+            
+             <td>  
+                 <input type="email" required maxlength="50"/>
+            </td>
+            <td>  
+                <input type="number" required maxlength="10"/>
+           </td>
+           <td>  
+                <input type="text" required maxlength="300"/>
+           </td>
+           <td>  
+            <input type="text" required maxlength="300"/>
+       </td>
+       <td>
+        <input type="text" required maxlength="100"/>
+       </td>
+         <td>
+            <input type="number" required/>
+         </td>   
+
+
+
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text"  required minlength="25"/>
+            </td>
+            <td>  
+                <input type="email" required maxlength="50"/>
+           </td>
+           <td>  
+               <input type="tel" maxlength="10"/>
+          </td>
+          <td>  
+               <input type="text" required maxlength="300"/>
+          </td>
+          <td>  
+           <input type="text" required maxlength="300"/>
+      </td>
+      <td>
+       <input type="text" required maxlength="100"/>
+      </td>
+        <td>
+           <input type="tel" required/>
+        </td>   
+        </tr>
+    </table>
+    <button> submit</button>
+    
+</body>
+</html>
